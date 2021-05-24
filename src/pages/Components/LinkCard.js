@@ -43,7 +43,7 @@ const LinkCard = ({ link, refreshLinks }) => {
                 {link?.name}
             </div>
             <div className="card-body">
-                <a href={link.url}>{link.url}</a>
+                <a href={link?.url}>{link?.url}</a>
                 <p>
                     {link?.description}
                 </p>
